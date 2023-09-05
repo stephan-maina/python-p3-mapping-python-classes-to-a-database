@@ -3,6 +3,7 @@
 from config import CONN, CURSOR
 from song import Song
 
+import pytest
 
-if __name__ == '__main__':
-    import ipdb; ipdb.set_trace()
+# Use pytest.set_trace() for debugging
+pytest.set_trace()
